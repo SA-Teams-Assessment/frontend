@@ -235,6 +235,7 @@ class GroundControl extends React.Component<GroundControlProps, State> {
   private toggleDropzone = () => {
     this.setState({ showDropzone: !this.state.showDropzone });
   };
+  
 }
 
 export default GroundControl;
